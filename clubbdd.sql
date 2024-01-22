@@ -40,7 +40,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `firstName`, `lastName`, `email`, `password`) VALUES
-(1, 'mahmoud', 'ben ayech', 'mahmoudbayech@gmail.com', 'mm123');
+(1, 'mahmoud', 'ben ayech', 'mm@gmail.com', '123456');
 
 -- --------------------------------------------------------
 
@@ -125,8 +125,8 @@ CREATE TABLE `responsableclub` (
 --
 
 INSERT INTO `responsableclub` (`id`, `firstName`, `lastName`, `email`, `password`) VALUES
-(1, 'mohamed', 'ali', 'ii@gmail.com', 'ii123'),
-(2, 'mohamed', 'amine', 'mohamedamine@gmail.com', 'mm123');
+(1, 'mohamed', 'ali', 'ii@gmail.com', '123456'),
+(2, 'mohamed', 'amine', 'mohamedamine@gmail.com', '123456');
 
 -- --------------------------------------------------------
 
@@ -147,8 +147,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `firstName`, `lastName`, `email`, `password`) VALUES
-(1, 'mohamed', 'ali', 'll@gmail.com', 'll123'),
-(2, 'mohamed', 'ali', 'mohamedali@gmail.com', 'mm123');
+(1, 'mohamed', 'ali', 'll@gmail.com', '123456'),
+(2, 'mohamed', 'ali', 'mohamedali@gmail.com', '123456');
 
 --
 -- Indexes for dumped tables
